@@ -1,0 +1,106 @@
+body {
+    background-image: url("./images/rmq_back.jpg");
+}
+
+html {
+    position: relative;
+
+    min-height: 100%;
+}
+
+main {
+    margin: 75px;
+}
+
+.block {
+    background-color: white;
+
+    padding: 15px;
+
+    margin-bottom: 15px;
+}
+
+.block-header {
+    color: blue;
+    font-weight: bold;
+}
+
+#logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: teal;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: tan;
+}
+
+.navbar {
+    background: white;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-header {
+        background-color: teal;
+    }
+}
+
+.connect-header {
+    font-size: 25px;
+}
+
+.connect-photo {
+    width: 50px;
+    height: 50px;
+}
+
+#images {
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+
+width: 90%;
+height: 70px;
+background-color: gray;
+}
+
+.text-muted-footer {
+    color: white;
+}
+
+.two-toned-footer-color {
+    height: 5px;
+    background-color: teal;
+}
+
+.about-me-header {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: teal;
+}
+
+#about-image {
+    float: left;
+
+    width:175px;
+}
+
+.port-image {
+    margin: auto;
+}
+
+.form-control {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.submit-btn {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+}
